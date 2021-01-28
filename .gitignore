@@ -1,1 +1,3 @@
-# ignore these files 
+# ignore following files
+# ignore .htaccess file
+.htaccess
