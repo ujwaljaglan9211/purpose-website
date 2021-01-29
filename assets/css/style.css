@@ -1,4 +1,131 @@
-body{
-  margin: 0;
-  padding: 0;
+/* icon section */
+.paragraph-center {
+  width: 680px;
+  margin: auto;
+  padding: 0 1.5rem;
+  position: relative;
+}
+.icon-color {
+  color: blueviolet;
+}
+.icon-size {
+  font-size: 40px;
+}
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section-bg {
+  background-color: #fafbfe;
+}
+.text-color-gray {
+  color: #8492a6;
+}
+/* end icon section */
+/* pages section  */
+.card {
+  margin-bottom: 40px;
+  box-shadow: 2px 3px 10px lightgray;
+  transition: 0.5s;
+}
+.on-hover-translate:hover {
+  transform: translateY(-10px);
+}
+.on-hover-shadow:hover {
+  box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
+}
+/* end pages section  */
+/* build too section  */
+.round-circle {
+  border-radius: 50% !important;
+}
+.build-tool {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  overflow: hidden;
+  background-color: #fafbfe;
+}
+.bg-image {
+  position: absolute;
+  top: 0;
+}
+.badge-lg {
+  padding: 10px 25px;
+}
+.icon-shape {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.25rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  line-height: 3rem;
+  color: white;
+}
+.bg-gradient-primary {
+  background: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%) !important;
+}
+.shadow-primary {
+  box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, 0.4) !important;
+}
+.shadow-warning {
+  box-shadow: 0 0.5rem 1rem rgba(255, 171, 0, 0.4) !important;
+}
+.bg-gradient-warning {
+  background: linear-gradient(50deg, #ffab00 0, #fff800 100%) !important;
+}
+.bg-gradient-info {
+  background: linear-gradient(50deg, #00b8d9 0, #0077d9 100%) !important;
+}
+.shadow-info {
+  box-shadow: 0 0.5rem 1rem rgba(0, 184, 217, 0.4) !important;
+}
+.fill-cyan {
+  fill: #4bd6e5 !important;
+}
+.fill-pink {
+  fill: #f074ad !important;
+}
+.fill-yellow {
+  fill: #ffcc00 !important;
+}
+.fill-blue {
+  fill: #2684ff !important;
+}
+.fill-purple {
+  fill: #510fa8 !important;
+}
+/* end build too section  */
+/* svg color */
+.fill-primary-300 {
+  fill: #c599ff !important;
+}
+.stroke-primary {
+  stroke: #6e00ff !important;
+}
+.stroke-neutral {
+  stroke: #fff !important;
+}
+.fill-neutral {
+  fill: #fff !important;
+}
+.fill-primary-200 {
+  fill: #e2ccff !important;
+}
+.fill-primary-500 {
+  fill: #8b33ff !important;
+}
+.fill-primary-400 {
+  fill: #a866ff !important;
+}
+.stroke-primary-400 {
+  stroke: #a866ff !important;
+}
+/* end svg color  */
+@media (max-width: 700px) {
+  .paragraph-center {
+    width: 100%;
+  }
 }
