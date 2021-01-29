@@ -129,3 +129,27 @@
     width: 100%;
   }
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: #6e00ff;
+    /* background:linear-gradient(50deg, #6e00ff 0, #bb00ff 100%) ; */
+}
+.icon {
+    min-width: 3rem;
+    min-height: 3rem;
+    line-height: 3rem;
+}
+.card-left-section{
+    background-color: #273444;
+}
+.card-right-section{
+    background-color: #510FA8;
+}
