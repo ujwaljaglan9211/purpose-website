@@ -138,3 +138,14 @@ html{
 .card-right-section{
     background-color: #510FA8;
 }
+/* Query for responsiveneess */
+@media screen and (max-width:480px)
+{
+    .large-circle{
+        height: 5rem;
+        width: 5rem;
+    }
+    .hidden{
+        display: none;
+    }
+}
