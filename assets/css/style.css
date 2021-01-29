@@ -1,3 +1,4 @@
+/* icon section */
 .paragraph-center {
     width: 680px;
     margin: auto;
@@ -10,6 +11,56 @@
 .icon-size{
     font-size: 40px;
 }
+.section-padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+.section-bg{
+   background-color: #FAFBFE;
+}
+.text-color-gray{
+    color: #8492A6;
+}
+/* end icon section */
+/* pages section  */
+.card{
+    margin-bottom: 40px;
+    box-shadow: 2px 3px 10px lightgray;
+    transition: .5s;
+}
+.on-hover-translate:hover{
+    transform: translateY(-10px);
+}
+.on-hover-shadow:hover {
+    box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
+}
+/* end pages section  */
+/* svg color */
+.fill-primary-300 {
+    fill: #c599ff !important;
+}
+.stroke-primary {
+    stroke: #6e00ff !important;
+}
+.stroke-neutral {
+    stroke: #FFF !important;
+}
+.fill-neutral {
+    fill: #FFF !important;
+}
+.fill-primary-200 {
+    fill: #e2ccff !important;
+}
+.fill-primary-500 {
+    fill: #8b33ff !important;
+}
+.fill-primary-400 {
+    fill: #a866ff !important;
+}
+.stroke-primary-400 {
+    stroke: #a866ff !important;
+}
+/* end svg color  */
 @media (max-width: 700px){
 .paragraph-center {
     width: 100%;
