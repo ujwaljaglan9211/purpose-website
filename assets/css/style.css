@@ -1,4 +1,69 @@
+li {
+    display: block;
+    transition-duration: 0.5s;
+   }
+   
+   li:hover {
+     cursor: pointer;
+   }
+   
+   ul li ul {
+     visibility: hidden;
+     opacity: 0;
+     position: absolute;
+     transition: all 0.5s ease;
+     margin-top: 1rem;
+     left: 0;
+     display: none;
+   }
+   
+   ul li:hover > ul,
+   ul li ul:hover {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+   }
+   
+   ul li ul li {
+     clear: both;
+     width: 100%;
+   }
 
+
+
+
+
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+}
+.font-text{
+    color: #1A0E7C;
+}
+.bold-class{
+    font-size: 40px;
+    font-weight: 500;
+}
+.font-color{
+    color: #1A0E7C ;
+}
+.header-section{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section .left-section{
+    width: 50%;
+}
+.header-section .left-section h4{
+    font-size: 21px;
+}
+.header-section .right-section{
+    width: 50%;
+}
 .round-icon-green {
     display: flex;
     align-items: center;
