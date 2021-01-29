@@ -1,0 +1,33 @@
+
+.round-icon-green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #aeebbe;
+}
+
+.round-icon-red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #ffd6d6;
+}
+
+.round-icon-blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #c7effc;
+}
