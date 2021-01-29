@@ -32,11 +32,20 @@ html{
 .icon-color{
     color: #6e00ff;
 }
-.floating-icon-sm{
-    animation: floating 6s ease infinite;
+.floating-icon-1{
+    animation: floating 7s ease infinite;
 }
-.floating-icon-lg{
-    animation: floating 4s ease infinite;
+.floating-icon-2{
+    animation: animate 4s ease infinite;
+}
+.floating-icon-3{
+    animation: floating 5s ease infinite;
+}
+.floating-icon-4{
+    animation: animate 6s ease infinite;
+}
+.floating-icon-5{
+    animation: floating 8s ease infinite;
 }
 .tongue-section{
     height: 2rem;
@@ -67,7 +76,18 @@ html{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(30px);
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(70px);
     }
     100%{
         transform: translateY(0px);
