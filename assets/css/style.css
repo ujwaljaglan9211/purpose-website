@@ -1,0 +1,17 @@
+.paragraph-center {
+    width: 680px;
+    margin: auto;
+    padding: 0 1.5rem;
+    position: relative;
+}
+.icon-color{
+    color: blueviolet;
+}
+.icon-size{
+    font-size: 40px;
+}
+@media (max-width: 700px){
+.paragraph-center {
+    width: 100%;
+}
+}
