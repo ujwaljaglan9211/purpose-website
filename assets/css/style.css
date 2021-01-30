@@ -179,34 +179,6 @@ section.banner{
 [class*="shadow"] {
   transition: all 0.2s ease;
 }
-/* changes the way you build starts here */
-.link {
-  transition: all 0.2s ease;
-}
-[class*="link-underline-"] {
-  padding-bottom: 8px;
-  position: relative;
-}
-.link-underline-primary {
-  color: #6e00ff;
-}
-.link-underline-primary:hover {
-  color: #5800cc;
-}
-.link-underline-primary:after {
-  background-color: #6e00ff;
-}
-[class*="link-underline-"]:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 3px;
-  border-radius: 50rem;
-  transition: all 0.2s cubic-bezier(0.77, 0, 0.2, 2.25);
-}
-/* changes the way you build ends here */
 /* icon section */
 .paragraph-center {
   width: 680px;
@@ -244,20 +216,56 @@ section.banner{
   box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
 }
 /* end pages section  */
+/* changes the way you build starts here */
+.link {
+  transition: all 0.2s ease;
+}
+[class*="link-underline-"] {
+  padding-bottom: 8px;
+  position: relative;
+}
+.link-underline-primary {
+  color: #6e00ff;
+}
+.link-underline-primary:hover {
+  color: #5800cc;
+}
+.link-underline-primary:after {
+  background-color: #6e00ff;
+}
+[class*="link-underline-"]:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 50rem;
+  transition: all 0.2s cubic-bezier(0.77, 0, 0.2, 2.25);
+}
+/* changes the way you build ends here */
 /* build too section  */
 .round-circle {
   border-radius: 50% !important;
 }
 .build-tool {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 150px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   overflow: hidden;
   background-color: #fafbfe;
 }
 .bg-image {
+  background-repeat: no-repeat;
   position: absolute;
+  overflow: hidden;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-size: contain;
+  align-items: center;
 }
 .badge-lg {
   padding: 10px 25px;
