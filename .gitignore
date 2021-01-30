@@ -1,3 +1,4 @@
 # ignore following files
 # ignore .htaccess file
 .htaccess
+!vscode/*
