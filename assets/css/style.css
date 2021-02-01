@@ -98,6 +98,18 @@ section.banner{
   font-weight: 700;
   content: "\f105";
 }
+.dropdown-toggle::after
+{
+  border-bottom: 0 !important;
+  display: inline-block !important;
+  margin-left: 5.2px !important;
+  text-rendering: auto !important;
+  font-family: 'Font Awesome 5 Pro', 'Font Awesome 5 Free' !important;
+  border-right: 0 solid transparent !important;
+  border-left: .3em solid transparent !important;
+  border-top: 0 !important;
+}
+
 .section-rotate {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -629,6 +641,7 @@ a {
   display: inline-block;
   position: absolute;
   left: 50%;
+  top: auto !important;
   z-index: 1;
   transform: rotate(180deg) translateX(50%);
   width: 138px;
@@ -736,9 +749,6 @@ a {
     background-color: #6e00ff;
   }
 }
-
-
-
 @media (min-width: 992px){
   .dropdown-menu-sm {
     min-width: 10rem !important;
@@ -760,4 +770,12 @@ a {
     border-radius: 0;
   }
   
+}
+.footer-main h3
+{
+  color: white !important;
+}
+.footer-main h6
+{
+  color: white !important;
 }
