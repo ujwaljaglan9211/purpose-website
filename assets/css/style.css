@@ -737,8 +737,25 @@ a {
   }
 }
 
-
-
+@media screen and (max-width:1023px)
+{
+  .large-circle{
+    height: 5rem;
+    width: 5rem;
+  }
+  .footer-main{
+    height: 52rem;
+  }
+}
+@media screen and (max-width:767px)
+{
+  .hidden{
+    display: none;
+  }
+  .footer-main{
+    height: 75rem;
+  }
+}
 @media (min-width: 992px){
   .dropdown-menu-sm {
     min-width: 10rem !important;
